@@ -19,7 +19,10 @@ def find(A):
         if A in i[0]:
             a = a+1
         if A == i[0]:
-            print(i[1])
+            abc = i[1]
+            if len(i)== 3:
+                abc = i[1]+i[2]
+            print(abc)
             answer = True
     if answer == False:
         if a != 0:
@@ -34,6 +37,7 @@ def main():
             find(x)
         elif x =="0000":
             break
+
 
 
 main()
