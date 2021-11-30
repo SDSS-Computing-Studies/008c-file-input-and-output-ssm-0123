@@ -16,13 +16,13 @@ def find(needle):
     a = 0
     for i in myList:
         if needle in i:
-            return(a)
+            return a
         else:
             a = a+1
 
 
 if __name__ == "__main__":
-    assert find('cotton') == 5
+    assert find('apple') == 0
 
 
 
